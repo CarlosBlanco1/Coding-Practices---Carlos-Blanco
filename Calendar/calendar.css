@@ -1,0 +1,22 @@
+tbody tr:nth-child(odd), thead tr:nth-child(odd){
+    background-color: yellow;
+    color:blueviolet;
+}
+tbody tr:nth-child(even), thead tr:nth-child(even){
+    background-color: #7B68EE;
+    color: yellow;
+}
+th, td{
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 10px;
+}
+colgroup{
+    border-style: solid;
+    border-color: black;
+}
