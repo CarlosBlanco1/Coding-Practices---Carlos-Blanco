@@ -20,3 +20,16 @@ For a version requiring 20 hours of work, I plan to create a simple yet responsi
 What is the smallest useful version?
 
 I don't really understand what the question refers to, but I think it refers to the smallest device I plan to have the page running on, and that would be a phone. To be specific, the IPhone SE, which has dimensions 375x667.
+
+STEPS:
+1.Setting up a new ASP.NET Core Web Application with the "API" template. 
+-In the "Controllers" folder, create C# files that define different actions for the API,like fetching data or adding data. 
+-Test API using Swagger by sending requests to its address. 
+-For Blazor project, create a Blazor WebAssembly App. 
+-Place existing HTML and JavaScript files inside the "wwwroot" folder. 
+-Try to adpat Javascript within Blazor components by calling JavaScript functions. 
+-Create the recipe class and database that can be referenced by the web app.
+
+
+
+
