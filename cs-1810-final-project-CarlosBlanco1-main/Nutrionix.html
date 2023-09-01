@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Nutrionix.css">
+    <script src="Nutrionix.js"></script>
+    <title>Nutrionix</title>
+</head>
+
+<!-- REQUIREMENT 1: Using different HTML elements helps to improve the semantic structure of a web page. Each 
+serves a different function-->
+<!-- REQUIREMENT 2: Using different HTML attribute names helps the ease of using CSS selectors. Each 
+serves the prupose of identifying a particular item to help make the design much more rich-->
+
+<body>
+    <nav>
+        <a class="title">Nutrionix</a>
+        <a><img src="images/Logo.png"></a>
+    </nav>
+
+    <section class="forms">
+        <form class="parent-form">
+
+            <div class="form1">
+                <label for="minCalories" id="minCalLabel">Min calories:</label>
+                <input type="text" id="minCal" name="minCalories" placeholder="i.e 500" value="0">
+            </div>
+
+            <div class="form2">
+                <label for="maxCalories" id="maxCalLabel">Max calories:</label>
+                <input type="text" id="maxCal" name="maxCalories" placeholder="i.e 2000" value="1000">
+            </div>
+
+            <div class="form3">
+                <label for="protein" id="proteinLabel">Protein intake:</label>
+                <input type="text" id="Protein" name="protein" placeholder="i.e 60" value="10">
+            </div>
+
+            <div class="form4">
+                <label for="vegetarian" id="veggieLabel">Veggie option</label>
+                <select id="Veg" name="vegetarian">
+                    <option value="default">--Select preferences--</option>
+                    <option value="true">Vegetarian</option>
+                    <option value="false">Non-vegetarian</option>
+                    <option value="default">No preference</option>
+                </select>
+            </div>
+
+            <div class="form5">
+                <label for="micronutrients" id="microLabel">Micronutrients</label>
+                <select id="Micro" name="micronutrients">
+                    <option value="default">--Select micronutrients--</option>
+                    <option value="VitaminC">Vitamin C</option>
+                    <option value="VitaminB6">Vitamin B6</option>
+                    <option value="VitaminA">Vitamin A</option>
+                    <option value="Fiber">Fiber</option>
+                </select>
+            </div>
+
+            <div class="form6">
+                <label for="numberIngredients" id="numIng">#Ingredients</label>
+                <select id="numIngredients" name="numberIngredients">
+                    <option value="default">--Select #ingredients--</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+
+            
+        </form>
+
+        <button type="submit" id="bttn" form="parent-form">Submit</button>
+    </section>
+
+
+    <div id="cardcontainer">
+
+    </div>
+
+
+</body>
+
+</html>
