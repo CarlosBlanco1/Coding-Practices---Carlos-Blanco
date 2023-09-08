@@ -11,5 +11,7 @@
         private string _instrutcions { get; set; }
 
         private NutritionalTable _nutritionalValue {  get; set; }
+
+        public List<Ingredient> Ingredients { get; set;}
     }
 }
